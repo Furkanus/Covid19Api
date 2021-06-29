@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70896D06268BA4DE00F94C3B /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70896D05268BA4DE00F94C3B /* Country.swift */; };
+		70896D09268BA50D00F94C3B /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70896D08268BA50D00F94C3B /* GetData.swift */; };
+		70896D0C268BA5F000F94C3B /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70896D0B268BA5F000F94C3B /* Color+Ext.swift */; };
 		70D508452516727600FB745A /* Covid_19ApiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D508442516727600FB745A /* Covid_19ApiApp.swift */; };
 		70D508472516727600FB745A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D508462516727600FB745A /* ContentView.swift */; };
 		70D508492516727A00FB745A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70D508482516727A00FB745A /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70896D05268BA4DE00F94C3B /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		70896D08268BA50D00F94C3B /* GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
+		70896D0B268BA5F000F94C3B /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		70D508412516727600FB745A /* Covid-19Api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covid-19Api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D508442516727600FB745A /* Covid_19ApiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid_19ApiApp.swift; sourceTree = "<group>"; };
 		70D508462516727600FB745A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +39,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70896D04268BA4D300F94C3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70896D05268BA4DE00F94C3B /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70896D07268BA50300F94C3B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				70896D08268BA50D00F94C3B /* GetData.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		70896D0A268BA5E200F94C3B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				70896D0B268BA5F000F94C3B /* Color+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		70D508382516727600FB745A = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +82,9 @@
 		70D508432516727600FB745A /* Covid-19Api */ = {
 			isa = PBXGroup;
 			children = (
+				70896D0A268BA5E200F94C3B /* Extensions */,
+				70896D07268BA50300F94C3B /* Network */,
+				70896D04268BA4D300F94C3B /* Model */,
 				70D508442516727600FB745A /* Covid_19ApiApp.swift */,
 				70D508462516727600FB745A /* ContentView.swift */,
 				70D508482516727A00FB745A /* Assets.xcassets */,
@@ -139,7 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				70D508472516727600FB745A /* ContentView.swift in Sources */,
+				70896D06268BA4DE00F94C3B /* Country.swift in Sources */,
+				70896D09268BA50D00F94C3B /* GetData.swift in Sources */,
 				70D508452516727600FB745A /* Covid_19ApiApp.swift in Sources */,
+				70896D0C268BA5F000F94C3B /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
